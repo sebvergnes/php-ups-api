@@ -7,6 +7,14 @@ use Ups\NodeInterface;
 
 class  Generic implements NodeInterface
 {
+    const AT_VOIDFORMANIFEST = 'VM';
+    const AT_UNDELIVERABLERETURNS = 'UR';
+    const AT_INVOICEREMOVALSUCCESSFUL = 'IR';
+    const AT_TRANSPORTCOMPANYUSPSSCAN = 'TC';
+    const AT_POSTALSERVICEPOSSESSIONSCAN = 'PS';
+    const AT_UPSEMAILNOTIFICATIONFAILURE = 'FN';
+    const AT_DESTINATIONSCAN = 'DS';
+
     /**
      * @var string
      */

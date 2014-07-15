@@ -7,10 +7,18 @@ use Ups\NodeInterface;
 
 class  UnitOfMeasurement implements NodeInterface
 {
+    // PackageWeight
+    const UOM_LBS = 'LBS'; // Pounds (default)
+    const UOM_KGS = 'KGS'; // Kilograms
+
+    // Dimensions
+    const UOM_IN = 'IN'; // Inches
+    const UOM_CM = 'CM'; // Centimeters
+
     /**
      * @var string
      */
-    private $code;
+    private $code = self::UOM_LBS;
 
     /**
      * @var string

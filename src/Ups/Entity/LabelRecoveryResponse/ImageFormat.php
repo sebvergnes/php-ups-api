@@ -7,6 +7,8 @@ use Ups\NodeInterface;
 
 class  ImageFormat implements NodeInterface
 {
+    const IF_PDF = 'PDF';
+
     /**
      * @var string
      */

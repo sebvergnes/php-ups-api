@@ -7,6 +7,10 @@ use Ups\NodeInterface;
 
 class  Package implements NodeInterface
 {
+    const PKG_OVERSIZE1 = '1';
+    const PKG_OVERSIZE2 = '2';
+    const PKG_LARGE = '4';
+
     /**
      * @var array
      */

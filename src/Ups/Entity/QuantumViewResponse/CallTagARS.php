@@ -7,6 +7,15 @@ use Ups\NodeInterface;
 
 class  CallTagARS implements NodeInterface
 {
+    const CTA_NORETURN = '00';
+    const CTA_CALLTAGSERVICE = '01';
+    const CTA_PRINTANDMAIL = '02';
+    const CTA_PICKUPATTEMPT = '03';
+    const CTA_PRINTRETURNLABEL = '04';
+    const CTA_ONLINECALLTAG = '05';
+    const CTA_ELECTRONICRETURNLABEL = '06';
+    const CTA_RETURNSONTHEWEB = '08';
+
     /**
      * @var string
      */

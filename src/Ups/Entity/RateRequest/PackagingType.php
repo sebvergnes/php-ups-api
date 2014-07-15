@@ -7,10 +7,23 @@ use Ups\NodeInterface;
 
 class  PackagingType implements NodeInterface
 {
+    const PT_UNKNOW = '00';
+    const PT_UPSLETTER = '01';
+    const PT_PACKAGE = '02';
+    const PT_TUBE = '03';
+    const PT_PAK = '04';
+    const PT_EXPRESSBOX = '21';
+    const PT_25KGBOX = '24';
+    const PT_10KGBOX = '25';
+    const PT_PALLET = '30';
+    const PT_EXPRESSBOX_SM = '2a';
+    const PT_EXPRESSBOX_MD = '2b';
+    const PT_EXPRESSBOX_L = '2c';
+
     /**
      * @var string
      */
-    private $code;
+    private $code = self::PT_UNKNOW;
 
     /**
      * @var string
